@@ -1,0 +1,90 @@
+body {
+  background-image: url(meadow-4485609_1280.jpg);
+  font-family: Lato;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+
+.cards {
+  display: grid;
+  gap: 10px;
+  padding: 10px;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+}
+
+.card {
+  display: grid;
+  margin: 0px;
+  background-color: white;
+  border-radius: 5px;
+  width: 100%;
+  text-align: center;
+  object-fit: cover;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  filter: grayscale(80%);
+}
+
+h1 {
+  text-align: center;
+}
+
+input {
+  width: 200px;
+  padding: 5px;
+  border: 0px;
+  border-radius: 5px;
+}
+
+.box {
+  text-align: center;
+  margin: 20px;
+}
+
+button {
+  background-color: #3c734e;
+  border: none;
+  padding: 5px 25px;
+  color: #fffcc9;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card:hover img {
+  filter: none;
+}
+
+#pokemonAmount {
+  text-align: center;
+}
+
+.types {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.type {
+  display: block;
+  margin: 5px;
+}
+
+.measures {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.measure {
+  display: block;
+  margin: 5px;
+}
